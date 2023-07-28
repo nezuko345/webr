@@ -1,0 +1,93 @@
+/* Home.css */
+
+.container {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
+  height: 100vh; 
+}
+
+/* Home.css */
+
+.input-field-large{
+  width:600px;  
+  background-color: black;
+  color: white;
+  height:30px;
+  border-radius: 5px;
+  border-color: white;
+  
+}
+
+.input-field-small{
+  width: 282px; 
+  background-color: black;
+  height: 30px;
+  border-radius: 5px;
+  border-color: white;
+  color: white;
+}
+
+
+
+.input-row{
+  display: flex;
+  gap: 30px;
+  
+
+  
+}
+
+body{
+  background-color: black;
+  
+  
+}
+
+button{
+  background-color: black;
+  color: white;
+  height: 35px;
+  width: 95px;
+  border-color: white;
+  border-radius: 5px;
+  font-family: 'Times New Roman', Times, serif;
+   
+}
+
+.bcon{
+  margin-top: 10px;
+}
+
+::placeholder{
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+.user-info {
+  display: flex;
+  color: white;
+}
+.profile-picture img {
+  width: 150px; 
+  height: 150px;
+  margin-right: 20px;
+  border-radius: 50%; 
+}
+hr{
+  width: 430px;
+}
+.details{
+  display: flex;
+  flex-direction: column;
+}
+.name{
+  font-size: 40px;
+}
+
+.registration-id{
+  font-size: 20px;
+}
